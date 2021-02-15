@@ -1,0 +1,9 @@
+for image:
+ 
+python mask_rcnn.py --mask-rcnn mask-rcnn-coco --image images/example_01.jpg 
+
+
+------------------------------------------------------------------------------------
+
+for vedio:
+mask_rcnn_video.py --input videos/test.mp4 --output output/output.avi --mask-rcnn mask-rcnn-coco
